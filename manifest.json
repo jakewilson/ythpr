@@ -1,0 +1,12 @@
+{
+  "name": "Youtube Homepage Remover",
+  "description": "Youtube has a very annoying homepage, with trending videos that always make me forget what I came on Youtube to search for in the first place. This extension removes those annoying thumbnails to free you of distractions.",
+  "manifest_version": 2,
+  "version": "0.0.1",
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["remove.js"]
+		}
+  ]
+}
