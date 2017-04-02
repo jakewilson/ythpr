@@ -1,0 +1,1 @@
+Youtube has a very annoying homepage, with trending videos that always make me forget what I came on Youtube to search for in the first place. This extension removes those annoying thumbnails to free you of distractions.
