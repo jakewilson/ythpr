@@ -5,7 +5,7 @@
   "version": "0.0.1",
 	"content_scripts": [
 		{
-			"matches": ["*://*.youtube.com/*"],
+			"matches": ["*://*.youtube.com/"],
 			"js": ["remove.js"]
 		}
   ]
