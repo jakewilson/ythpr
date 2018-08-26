@@ -7,7 +7,7 @@ function showElement(element) {
 }
 
 (function() {
-	let content = document.getElementById('content');
+	let content = document.getElementsByClassName('ytd-page-manager')[0];
 
 	hideElement(content);
 
